@@ -1,0 +1,43 @@
+{
+  "name": "ndoubismarck/cakephp-modules",
+  "description": "Module support plugin for CakePHP",
+  "keywords": [
+    "module",
+    "modules",
+    "cakephp"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bismarck Ndou",
+      "email": "mail@ndoubismarck.me",
+      "role": "Developer",
+      "homepage": "https://ndoubismarck.me"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/ndoubismarck/cakephp-modules",
+    "issues": "https://github.com/ndoubismarck/cakephp-modules/issues"
+  },
+  "require": {
+    "php": ">=7.2",
+    "cakephp/cakephp": "^4.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "cakephp/debug_kit": "^4.5",
+    "phpunit/phpunit": "^8.5 || ^9.3",
+    "cakephp/cakephp-codesniffer": "^4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Test\\": "tests/"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+# Project specific files #
+##########################
+/vendor/*
+
+# OS generated files #
+######################
+._*
+.Trashes
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+Icon
+ehthumbs.db
+Thumbs.db
+.directory
+
+# Tool specific files #
+#######################
+# vim
+*~
+*.swp
+*.swo
+# PHPUnit
+.phpunit.result.cache
+tests.sqlite
+# sublime text & textmate
+*.sublime-*
+*.stTheme.cache
+*.tmlanguage.cache
+*.tmPreferences.cache
+# Eclipse
+.settings/*
+# JetBrains, aka PHPStorm, IntelliJ IDEA
+.idea/*
+# NetBeans
+nbproject/*
+# Visual Studio Code
+.vscode
+
